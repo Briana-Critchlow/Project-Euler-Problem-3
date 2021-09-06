@@ -1,7 +1,7 @@
 
 let numbers = [];
 
-for (let b = 1; b < 100; b++) {
+for (let b = 1; b < 300; b++) {
     numbers.push(b);
 }
 
