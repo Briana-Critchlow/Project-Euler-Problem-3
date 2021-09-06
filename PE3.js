@@ -1,7 +1,7 @@
 
 let numbers = [];
 
-for (let b = 1; b < 300; b++) {
+for (let b = 1; b < 1000; b++) {
     numbers.push(b);
 }
 
@@ -29,4 +29,46 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 // console.log(primeNums);
+
+
+
+let sum = [13195];
+let primeFactors = [];
+
+for (let k = 0; k < primeNums.length; k++) {
+    function division(x, z) {
+        if (z % x === 0) {
+            primeFactors.push(x);
+        } else {
+            return false;
+        }
+    }
+    (division(primeNums[k], sum));
+
+}
+
+console.log(primeFactors);
+
+
+
+
+/*function division(z) {
+
+    if (z === 1) {
+        return false;
+    }
+    else if (z === 2) {
+        return true;
+    } else {
+        for (var y = 2; y < z; y++) {
+            if (z % y === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+console.log(division(37));
+*/
 
