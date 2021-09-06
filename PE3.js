@@ -1,9 +1,11 @@
 
 let numbers = [];
 
-for (let b = 1; b < 20; b++) {
+for (let b = 1; b < 100; b++) {
     numbers.push(b);
 }
+
+let primeNums = [];
 
 for (let i = 0; i < numbers.length; i++) {
     function test_prime(n) {
@@ -12,17 +14,18 @@ for (let i = 0; i < numbers.length; i++) {
             return false;
         }
         else if (n === 2) {
-            return true;
+            primeNums.push(n);
         } else {
             for (var x = 2; x < n; x++) {
                 if (n % x === 0) {
                     return false;
                 }
             }
-            return true;
+            primeNums.push(n);
         }
     }
 
-    console.log(test_prime(numbers[i]));
+    (test_prime(numbers[i]));
 }
 
+console.log(primeNums);
