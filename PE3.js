@@ -28,4 +28,5 @@ for (let i = 0; i < numbers.length; i++) {
     (test_prime(numbers[i]));
 }
 
-console.log(primeNums);
+// console.log(primeNums);
+
