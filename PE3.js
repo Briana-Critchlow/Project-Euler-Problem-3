@@ -32,7 +32,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 
 
-let sum = [13195];
+let sum = [600851475143];
 let primeFactors = [];
 
 for (let k = 0; k < primeNums.length; k++) {
