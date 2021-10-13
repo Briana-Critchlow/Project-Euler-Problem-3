@@ -16,7 +16,7 @@ for (let i = 0; i < numbers.length; i++) {
         else if (n === 2) {
             primeNums.push(n);
         } else {
-            for (var x = 2; x < n; x++) {
+            for (let x = 2; x < n; x++) {
                 if (n % x === 0) {
                     return false;
                 }
