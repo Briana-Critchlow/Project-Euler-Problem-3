@@ -52,23 +52,5 @@ console.log(primeFactors);
 
 
 
-/*function division(z) {
 
-    if (z === 1) {
-        return false;
-    }
-    else if (z === 2) {
-        return true;
-    } else {
-        for (var y = 2; y < z; y++) {
-            if (z % y === 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-}
-
-console.log(division(37));
-*/
 
